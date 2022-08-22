@@ -1,0 +1,93 @@
+.title {
+  color: #dbdadd;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  height: auto;
+  width: 15rem;
+  background-color: #242a44;
+  padding: 0.8rem;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: st; */
+  gap: 1rem;
+  /* justify-content: space-between; */
+}
+.imageWrapepr {
+  /* border-radius: 10px; */
+  /* overflow: hidden; */
+  position: relative;
+  height: 10rem;
+  margin-bottom: 2.58rem;
+}
+.nftImage {
+  border-radius: 5px;
+}
+
+.card .buttons {
+  margin-top: 1rem;
+}
+.backDrop {
+  position: absolute;
+  height: 3rem;
+  top: 85%;
+  left: 50%;
+  width: 90%;
+  transform: translateX(-50%);
+  backdrop-filter: blur(20px);
+  color: aliceblue;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  border: 1px solid rgb(188, 182, 182);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.bidInfo,
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.lastBid {
+  color: #dbdadd;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.bidAmount {
+  color: rgb(20, 161, 161);
+  font-weight: 600;
+  font-size: 1rem;
+}
+.bidAmmountWrapper {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.primaryBtn {
+  padding: 0.5rem;
+  color: #dbdadd;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 6.5rem;
+  background: rgb(91, 115, 203);
+  background: linear-gradient(
+    90deg,
+    rgba(91, 115, 203, 1) 0%,
+    rgba(132, 101, 200, 1) 100%
+  );
+  border: none;
+}
+.secondaryBtn {
+  padding: 0.5rem;
+  color: #dbdadd;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 6.5rem;
+  box-sizing: border-box;
+  background: none;
+  border: 2px solid #dbdadd;
+}
